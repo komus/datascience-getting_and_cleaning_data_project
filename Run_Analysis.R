@@ -31,6 +31,5 @@ names(mergeTrain) <- "activity"
 
 #solving the fourth and fifth question
 
-names(S) <- "subject"
 mergefinal <- rbind(mergeTest, mergeTrain);
 write.table(mergefinal, "tidydatadone.txt")
