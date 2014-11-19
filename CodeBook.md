@@ -1,5 +1,5 @@
 CodeBook
-a code book that describes the variables, the data, and any transformations or work that isperformed to clean up the data
+this codebook describes the variables, the data, and any transformations or work that isperformed to clean up the data
 on 
 Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -7,8 +7,6 @@ Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Huma
 The data
 
 The dataset includes the following files:
-
-'README.txt'
 
 'features_info.txt': Shows information about the variables used on the feature vector.
 
@@ -35,7 +33,7 @@ The following files are available for the train and test data. Their description
 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
 the Run_Analysis.R is doing the following:
-1:Merges the training and the test sets to create one data set.
+1:Merges the training and the test sets to create one data set,
 2: Extracts only the measurements on the mean and standard deviation for each measurement. 
 3: Uses descriptive activity names to name the activities in the data set
 4: Appropriately labels the data set with descriptive variable names. 
